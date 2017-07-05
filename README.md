@@ -1,7 +1,7 @@
 # book
 book manage by nodejs
 
-###change the mysql config in conf/db.js
+### change the mysql config in conf/db.js
 
 ```
 module.exports = {
@@ -15,7 +15,7 @@ module.exports = {
 };
 ```
 
-###and you can run by the commit
+### and you can run by the commit
 
 ```
 forever start -o logs/out.log -e logs/err.log ./bin/www 
